@@ -1,0 +1,35 @@
+.icon {
+    margin-left: 50%;
+    margin-right: 50%;
+    height: 20px;
+}
+.logo {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.container-fluid {
+    background-color: aqua;
+    display: flex;
+}
+.navbar {
+    display: flex;
+    flex-basis: auto;
+}
+/*Text fonts*/
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+.bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.orbitron> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
