@@ -7,22 +7,66 @@
         <Title>Polyhedron Gamestore Manchester</Title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nanum+Myeongjo&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nanum+Myeongjo&family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
     
     </head>
 <body>
-    <div class="container">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./homepage"><img src="images/gamestorelogo.jpg" class="logo"></a>
-              <h3>Polyhedron Gamestore</h3>    
-              <div>
-                <div class="navbar"><a href="./home"><button id="home">Home</button></a></div>
-                <div class="navbar"><a href="./calendar"><button id="calendar">Calendar</button></a></div>
-                <div class="navbar"><a href="./tournament"><button id="tournaments">Tournaments</button></a></div>
+    <div>
+        <div class="container">
+            <a class="navbar-brand" href="./homepage"><img src="images/gamestorelogo.jpg" class="logo"></a>
+                
+            <div class="navbar">
+                <div><a href="discord.gg/vufYumYBkt"><img src="svg/discord.svg" class="icon"></a></div>
+                <div><a href="https://www.facebook.com/polyhedrongamestoretn/"><img src="svg/facebook.svg"  class="icon"></a></div>
             </div>
-    </div>
-
-
+        </div>
+     </div> 
+     <img src="images/gamestorelogo.jpg" class="dragon">
+        <h1>Polyhedron Gamestore</h1>
+        <div class="content">
+            <div class="about">
+                <h2>Find Us</h2>
+                <p>Address:</p>
+                <p>845A McArthur Street</p>
+                <p>Manchester, TN</p>
+                <p>United States</p>
+                <p>Phone Number:</p>
+                <p>(931) 954-5128</p>
+                <h2>Hours of Operation</h2>
+                <p>Monday: Closed</p>
+                <p>Tuesday: Closed</p>
+                <p>Wednesday: 2pm to 8pm</p>
+                <p>Thursday: 2pm to 8pm</p>
+                <p>Friday: 2pm to 10pm</p>
+                <p>Saturday: 2pm to 10pm</p>
+                <p>Sunday: 2pm to 8pm</p>
+                <h2>Connect <br>With Us</h2>
+                <p><img src="svg/discord.svg" class="icon2">Discord</p>
+                <p><img src="svg/facebook.svg" class="icon2">Facebook</p>
+                </div>
+            <div class="nerdstore">
+                <p> Manchester's exclusive nerd lounge disguised as a game store. Everyone is welcome. We have plenty of places to play games. We suport many formats such as Magic the Gathering, Lorecana, Dungeons and Dragons, and even contain a collection of console games and board games to play. We also offer various items to purchase and play in the store. Playmats, cards, miniatures, kits, and more. Come visit us and see why we're the best place to hang out.</p>
+            </div>
+            <div class="calendar">
+                <h2>Calendar of Events</h2>
+                <p>Wednesday: MTG: Pauper</p>
+                <p>Thursday: MTG: Commander</p>
+                <p>Friday: MTG: Commander</p>
+                <p>Saturday: Lorecana/Battletech/MTG: Commander</p>
+                <p>Sunday: MTG: Commander</p>
+            </div>
+            <div class="tournaments">
+                <h2>Tournaments</h2>
+                <p>Join us during our special tournament events where you can win prizes!</p>
+                <p>Our next event will be held:</p>
+                <h3>Tournament Type</h3>
+                <h3>Date: TBD</h3>
+                <h3>Time: TBD</h3>
+            </div>
+        </div>
+     
+<footer>
     &#169; 2024 Polyhedron Gamestore of Manchester
+</footer>
     </body>
     </html>
