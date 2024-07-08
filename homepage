@@ -16,13 +16,19 @@
             <a class="navbar-brand" href="./homepage"><img src="images/gamestorelogo.jpg" class="logo"></a>
                 
             <div class="navbar">
-                <div><a href="discord.gg/vufYumYBkt"><img src="svg/discord.svg" class="icon"></a></div>
+                <div><a href="https://discord.gg/vufYumYBkt"><img src="svg/discord.svg" class="icon"></a></div>
                 <div><a href="https://www.facebook.com/polyhedrongamestoretn/"><img src="svg/facebook.svg"  class="icon"></a></div>
             </div>
         </div>
      </div> 
-     <img src="images/gamestorelogo.jpg" class="dragon">
-        <h1>Polyhedron Gamestore</h1>
+     <div class="logoheader">
+        <div>
+            <img src="images/gamestorelogo.jpg" class="dragon">
+        </div>
+        <div>
+            <h1>Polyhedron Gamestore</h1>
+        </div>
+    </div>
         <div class="content">
             <div class="about">
                 <h2>Find Us</h2>
@@ -41,8 +47,9 @@
                 <p>Saturday: 2pm to 10pm</p>
                 <p>Sunday: 2pm to 8pm</p>
                 <h2>Connect <br>With Us</h2>
-                <p><img src="svg/discord.svg" class="icon2">Discord</p>
-                <p><img src="svg/facebook.svg" class="icon2">Facebook</p>
+                <p><a href="mailto:ataylor@polyhedrongamestore.com"><img src="./svg/envelope-paper-fill.svg" class="icon2">Email</a></p>
+                <p><a href="https://discord.gg/vufYumYBkt"><img src="svg/discord.svg" class="icon2">Discord</a></p>
+                <p><a href="https://www.facebook.com/polyhedrongamestoretn/"><img src="svg/facebook.svg" class="icon2">Facebook</a></p>
                 </div>
             <div class="nerdstore">
                 <p> Manchester's exclusive nerd lounge disguised as a game store. Everyone is welcome. We have plenty of places to play games. We suport many formats such as Magic the Gathering, Lorecana, Dungeons and Dragons, and even contain a collection of console games and board games to play. We also offer various items to purchase and play in the store. Playmats, cards, miniatures, kits, and more. Come visit us and see why we're the best place to hang out.</p>
@@ -64,7 +71,7 @@
                 <h3>Time: TBD</h3>
             </div>
         </div>
-     
+     <br>
 <footer>
     &#169; 2024 Polyhedron Gamestore of Manchester
 </footer>

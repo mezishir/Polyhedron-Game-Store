@@ -2,24 +2,46 @@ h1{
   text-align: center;
   font-size: 72px;
   font-family: Bungee Shade;
+  color:rgb(236, 221, 86);
 }
 h2{
   text-align: center;
   font-size: 48px;
   font-family: Orbitron;
+  color:rgb(236, 221, 86);
 }
 h3 {
   text-align: center;
   font-size: 30px;
   font-family: "Press Start 2P";
+  color:rgb(236, 221, 86);
 }
 p {
   font-family: Nanum Myeongjo;
   font-size: 20px;
   text-align: center;
+  color:rgb(171, 236, 86);
 }
+a:link {
+  color: rgb(236, 221, 86);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(171, 236, 86);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(146, 173, 250);
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+} 
 body {
-  background-color: blue;
+  background-color: black;
 }
 .about > p{
   font-size: 15px;
@@ -27,14 +49,10 @@ body {
 .logo {
     height: 50px;
     margin-right: 10px;
-    margin-left: 10px;
-}
-.dragon {
-  margin-left: 45%;
-  height: 200px;
+    margin-left: 10px; 
 }
 .container {
-    background-color: aqua;
+    background-color: rgb(3, 204, 204);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,18 +72,32 @@ body {
   height: 20px;
   margin-right: 10px;
 }
+.logoheader {
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+.dragon {
+  height: 200px;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1210px) {
 .content {
-  display:grid;
+  display: grid;
+  background-color: rgb(1, 97, 97);
   gap: 1rem;
-  grid-template-columns: .5fr .5fr .5fr;
-  grid-template-rows: .5fr .5fr .5fr;
-  height: 100vh;
+  grid-template-columns: 350px auto auto;
+  height: auto;
+  width: auto;
   padding: 20px;
 }
 .about {
+  background-color: rgb(1, 97, 97);
   grid-row: span 3;
   grid-area: 1/1/4/2;
-  background-color: rgb(241, 240, 239);
 }
 .nerdstore {
   grid-column: span 2;
@@ -74,19 +106,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-color: black;
 }
 .calendar {
   grid-row: span 2;
   order: 3;
   grid-area: 2/2/4/3;
+  background-color: black;
 }
 .tournaments {
   grid-row: span 2;
   order: 3/3/4/4;
+  background-color: black;
 }
+}
+
 footer {
   text-align: center;
+  color:rgb(236, 221, 86);
 }
 /*Text fonts*/
 .nanum-myeongjo-regular {
@@ -110,3 +147,62 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
+
+
+/*media queries to adjust for screen size*/
+@media (min-width: 740px){
+  
+.content {
+display: grid;
+background-color: rgb(1, 97, 97);
+gap: 1rem;
+grid-template-columns: auto auto;
+grid-template-rows: repeat(3, auto);
+padding: 20px;
+}
+.about {
+background-color: rgb(1, 97, 97);
+grid-row: span 3;
+grid-area: 1/1/4/2;
+}
+.nerdstore {
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+.calendar {
+background-color: black;
+}
+.tournaments {
+background-color: black;
+}}
+
+@media (max-width: 739px){
+  .content {
+    display: grid;
+    background-color: black;
+    padding: 20px;
+    gap: 10px;
+  }
+  .about {
+  background-color: rgb(1, 97, 97);
+  }
+  .nerdstore {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 97, 97);
+  }
+  .calendar {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 97, 97);
+  }
+  .tournaments {
+    background-color: rgb(1, 97, 97);
+    justify-content: center;
+    align-items: center;
+  }}
